@@ -1,0 +1,15 @@
+[global_config]
+  title_hide_sizetext = True
+  title_transmit_bg_color = "#007ac8"
+[keybindings]
+[layouts]
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#1f2d3a"
+    background_image = None
+    copy_on_selection = True
+    cursor_shape = ibeam
+    foreground_color = "#1abc9c"
+    palette = "#2c3e50:#c0392b:#27ae60:#f39c12:#2980b9:#8e44ad:#16a085:#bdc3c7:#34495e:#e74c3c:#2ecc71:#f1c40f:#3498db:#9b59b6:#2aa198:#ecf0f1"
+    scrollback_infinite = True
