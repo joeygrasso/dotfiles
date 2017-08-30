@@ -1,7 +1,9 @@
 # dotfiles
 ## Structure
+```
 dotfiles
 ├── bash
+│   └── profile
 ├── editors
 │   └── terminator
 ├── README.md
@@ -11,7 +13,7 @@ dotfiles
 │   └── Ultra-Flat-Theme
 └── wallpaper
     └── flat_solar_system_background.png
-
+```
 ### bash
 Bash specific dot files like profile, bashrc, and bash_logout
 
