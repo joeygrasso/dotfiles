@@ -3,6 +3,7 @@
 ```
 dotfiles
 ├── bash
+│   ├── bashrc
 │   └── profile
 ├── editors
 │   └── terminator
