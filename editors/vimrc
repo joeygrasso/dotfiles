@@ -1,0 +1,9 @@
+set number
+set cursorline
+set ruler
+syntax enable
+
+set tabstop=2
+set softtabstop=2 
+set expandtab
+
