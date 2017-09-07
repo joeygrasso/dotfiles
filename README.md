@@ -6,9 +6,9 @@ dotfiles
 │   ├── bashrc
 │   └── profile
 ├── editors
-│   └── terminator
+│   ├── terminator
+│   └── vimrc
 ├── README.md
-├── ssh
 ├── themes
 │   ├── Libra
 │   └── Ultra-Flat-Theme
