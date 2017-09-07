@@ -13,6 +13,7 @@ dotfiles
 │   ├── Libra
 │   └── Ultra-Flat-Theme
 └── wallpaper
+    ├── atlutd_background.png
     └── flat_solar_system_background.png
 ```
 ### bash
