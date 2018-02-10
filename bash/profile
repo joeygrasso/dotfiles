@@ -16,9 +16,18 @@ if [ -n "$BASH_VERSION" ]; then
     fi
 fi
 
-# set PATH so it includes user's private bin directories
-PATH="$HOME/bin:$HOME/.local/bin:$PATH"
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
 
-# Golang Stuff
-PATH=$PATH:/usr/local/go/bin
+# Go Lang Stuff
+export GOROOT=/usr/local/go
 export GOPATH=$HOME/Programming/go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
+# Pyenv Stuff
+export PATH="/home/joey/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
