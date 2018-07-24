@@ -11,6 +11,7 @@ dotfiles
 ├── README.md
 ├── themes
 │   ├── Libra
+    ├── Paper
 │   └── Ultra-Flat-Theme
 └── wallpaper
     ├── atlutd_background.png
